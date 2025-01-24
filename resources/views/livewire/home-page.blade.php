@@ -134,7 +134,7 @@
                         <div class="flex items-center justify-between">
                             <div class="flex items-center">
                                 <img class="h-[2.375rem] w-[2.375rem] rounded-full"
-                                    src="{{ url('storage', $category->images) }}"
+                                    src="{{ url('storage', $category->image) }}"
                                     alt="{{ $category->name }}">
                                 <div class="ms-3">
                                     <h3

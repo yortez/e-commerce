@@ -9,7 +9,7 @@
         <div class="flex items-center justify-between">
             <div class="flex items-center">
                 <img class="h-[5rem] w-[5rem]"
-                    src="{{ url('storage', $category->id) }}
+                    src="{{ url('storage', $category->image) }}"
                     alt="{{  $category->name }}">
                 <div class="ms-3">
                     <h3
